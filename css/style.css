@@ -13,12 +13,15 @@ nav{
 nav a{
   margin-right:24px;
   font-family: Nunito;
-  font-size:14px;
+  font-weight: 400;
+  font-style: normal;
+  font-size:30px;
   line-height: 24px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
   margin-right: 24px;
   color: #612999;
+}
+nav a:hover{
+  color: blueviolet;
 }
 .nav-flex-container{
   display:flex;
@@ -39,11 +42,80 @@ a{
 }
 
 #logo span{
-  font-family: tahoma;
+  font-family: Nunito;
   font-size: 24px;
   padding-left:75px;
   letter-spacing:6px;
   line-height:normal;
   display: grid;
   padding-top: 20px;
+}
+
+footer{
+  background-color: #EFECFF;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  
+}
+
+footer h6{
+  padding-left: 32px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+#footer-flex-container{
+  display: flex;
+  padding-left: 32px;
+}
+
+ #icons{
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+#footer-flex-container ul{
+  list-style-type: none;
+  margin-top: 16px;
+}
+#footer-flex-container #footer-column2{
+  margin-left: 150px;
+}
+
+#footer-flex-container ul li{
+  margin-bottom: 8px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+#footer-flex-container ul li a{
+  color: #333;
+}
+
+
+#footer-flex-container h5 {
+  color: #333;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+#icons{
+  padding-left: 32px;
+}
+
+#icons img{
+  width: 20px;
+  height:20px;
+  margin-right: 25px;
 }
