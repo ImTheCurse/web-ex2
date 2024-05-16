@@ -104,6 +104,36 @@ footer h6{
   line-height: normal;
 }
 
+#about-section h2{
+  padding-top: 32px;
+  padding-left: 32px;
+  color: #612999;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 100% */
+}
+
+#about-section #first-paragraph{
+  margin-top: 32px;
+  
+}
+
+#about-section p{
+  margin-left: 32px;
+  margin-bottom: 32px;
+  width: 1136px;
+  height: 85px;
+  color: #000;
+  text-align: justify;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%; /* 28.125px */
+}
+
 #footer-flex-container{
   display: flex;
   padding-left: 32px;
