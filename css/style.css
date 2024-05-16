@@ -95,6 +95,33 @@ nav a:hover{
   height: 700px;
 }
 
+.cards-container > .card .shopping-cart {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+}
+
+.cards-container > .card .flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+.cards-container > .card .flex-container .shopping-cart{
+    position: relative;
+    width: 63px;
+    height: 63px;
+}
+
+.cards-container > .card .flex-container .shopping-cart img{
+  position: absolute;
+    bottom: 0px;
+    left: 170px;
+    object-fit:scale-down;
+  
+}
 
 a{
   text-decoration:none;
