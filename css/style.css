@@ -67,6 +67,42 @@ footer h6{
   line-height: normal;
 }
 
+#image-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  }
+
+#image-container img{
+  display: block;
+  width: 100%;
+  height: 797px;
+  
+}
+
+.overlay-text {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  color: white;
+
+  color: #612999;
+  font-family: Nunito;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.overlay-text p{
+  color: #000;
+  width: 448px;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
 #footer-flex-container{
   display: flex;
@@ -119,3 +155,5 @@ footer h6{
   height:20px;
   margin-right: 25px;
 }
+
+
