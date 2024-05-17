@@ -113,14 +113,38 @@ nav a:hover{
     position: relative;
     width: 63px;
     height: 63px;
+
 }
 
 .cards-container > .card .flex-container .shopping-cart img{
-  position: absolute;
+    position: absolute;
     bottom: 0px;
     left: 170px;
     object-fit:scale-down;
-  
+}
+
+.cards-container > .card .like-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    position: relative;
+
+}
+
+.cards-container > .card .like-flex-container .like-button{
+  width:47px;
+  height: 47px;
+  position:relative;
+}
+
+.cards-container > .card .like-flex-container .like-button img{
+    position: absolute;
+    bottom: 580px;
+    left: 170px;
+    object-fit:scale-down;
+
 }
 
 a{
@@ -141,7 +165,6 @@ footer{
   background-color: #EFECFF;
   padding-top: 32px;
   padding-bottom: 32px;
-  overflow: hidden;  
 }
 
 footer h6{
@@ -198,7 +221,9 @@ footer h6{
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 100% */
+  line-height: 40px; 
+  overflow: hidden;
+
 }
 
 #about-section #first-paragraph{
