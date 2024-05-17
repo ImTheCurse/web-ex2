@@ -1,64 +1,71 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-header, nav, main, aside, section, article, footer, div{
+header,
+nav,
+main,
+aside,
+section,
+article,
+footer,
+div {
   display: block;
 }
 
-nav{
+nav {
   margin-top: 26px;
 }
 
-nav a{
-  margin-right:24px;
+nav a {
+  margin-right: 24px;
   font-family: Nunito;
   font-weight: 400;
   font-style: normal;
-  font-size:30px;
+  font-size: 30px;
   line-height: 24px;
   margin-right: 24px;
   color: #612999;
 }
-nav a:hover{
+nav a:hover {
   color: blueviolet;
 }
-.nav-flex-container{
-  display:flex;
-  justify-content:space-between;
+.nav-flex-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-#logo{
+#logo {
   background-image: url("../images/logo.jpg");
   background-repeat: no-repeat;
-  background-size:contain;
-  display:block;
+  background-size: contain;
+  display: block;
   height: 64px;
-  width:64px;
+  width: 64px;
 }
-.cards-container{
+.cards-container {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  gap:32px;
+  gap: 32px;
   padding-left: 29px;
 }
 
-.cards-container > .card{
+.cards-container > .card {
   display: inline-block;
   width: 376px;
   height: 496px;
-  background-color: #EFECFF;
+  background-color: #efecff;
   border-radius: 38px;
 }
 
-.cards-container > .card img{
+.cards-container > .card img {
   height: 357px;
   width: 100%;
-  border-radius:38px;
+  border-radius: 38px;
 }
 
-.cards-container > .card h2{
+.cards-container > .card h2 {
   color: #000;
   padding-left: 32px;
   text-align: justify;
@@ -68,7 +75,7 @@ nav a:hover{
   font-weight: 400;
   line-height: normal;
 }
-.cards-container > .card h3{
+.cards-container > .card h3 {
   color: #612999;
   text-align: justify;
   font-family: Abel;
@@ -80,7 +87,7 @@ nav a:hover{
   margin-bottom: 36px;
 }
 
-.cards-container > .card p{
+.cards-container > .card p {
   color: #333;
   padding-left: 32px;
   font-family: Abel;
@@ -90,7 +97,7 @@ nav a:hover{
   line-height: normal;
 }
 
-#card-section{
+#card-section {
   overflow: scroll;
   height: 700px;
 }
@@ -101,73 +108,70 @@ nav a:hover{
   position: absolute;
 }
 
-.cards-container > .card .flex-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 200px;
-    position: relative;
+.cards-container > .card .flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  position: relative;
 }
-.cards-container > .card .flex-container .shopping-cart{
-    position: relative;
-    width: 63px;
-    height: 63px;
-
+.cards-container > .card .flex-container .shopping-cart {
+  position: relative;
+  width: 63px;
+  height: 63px;
 }
 
-.cards-container > .card .flex-container .shopping-cart img{
-    position: absolute;
-    bottom: 0px;
-    left: 170px;
-    object-fit:scale-down;
+.cards-container > .card .flex-container .shopping-cart img {
+  position: absolute;
+  bottom: 0px;
+  left: 170px;
+  object-fit: scale-down;
 }
 
 .cards-container > .card .like-flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 200px;
-    position: relative;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  position: relative;
 }
 
-.cards-container > .card .like-flex-container .like-button{
-  width:47px;
+.cards-container > .card .like-flex-container .like-button {
+  width: 47px;
   height: 47px;
-  position:relative;
+  position: relative;
 }
 
-.cards-container > .card .like-flex-container .like-button img{
-    position: absolute;
-    bottom: 580px;
-    left: 170px;
-    object-fit:scale-down;
-
+.cards-container > .card .like-flex-container .like-button img {
+  position: absolute;
+  bottom: 580px;
+  left: 170px;
+  object-fit: scale-down;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
-#logo span{
+#logo span {
   font-family: Nunito;
   font-size: 24px;
-  padding-left:75px;
-  letter-spacing:6px;
-  line-height:normal;
+  padding-left: 75px;
+  letter-spacing: 6px;
+  line-height: normal;
   display: grid;
   padding-top: 20px;
 }
 
-footer{
-  background-color: #EFECFF;
+footer {
+  background-color: #efecff;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-footer h6{
+footer h6 {
   padding-left: 32px;
   font-family: Nunito;
   font-size: 16px;
@@ -180,13 +184,13 @@ footer h6{
   display: inline-block;
   position: relative;
   width: 100%;
-  overflow: hidden;}
+  overflow: hidden;
+}
 
-#image-container img{
+#image-container img {
   display: block;
   width: 100%;
   height: 797px;
-  
 }
 
 .overlay-text {
@@ -203,7 +207,7 @@ footer h6{
   line-height: normal;
 }
 
-.overlay-text p{
+.overlay-text p {
   color: #000;
   width: 448px;
   font-family: Nunito;
@@ -213,7 +217,7 @@ footer h6{
   line-height: normal;
 }
 
-#about-section h2{
+#about-section h2 {
   padding-top: 32px;
   padding-left: 32px;
   color: #612999;
@@ -221,17 +225,15 @@ footer h6{
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; 
+  line-height: 40px;
   overflow: hidden;
-
 }
 
-#about-section #first-paragraph{
+#about-section #first-paragraph {
   margin-top: 32px;
-  
 }
 
-#about-section p{
+#about-section p {
   margin-left: 32px;
   margin-bottom: 32px;
   width: 1136px;
@@ -245,25 +247,25 @@ footer h6{
   line-height: 140.625%;
 }
 
-#footer-flex-container{
+#footer-flex-container {
   display: flex;
   padding-left: 32px;
 }
 
- #icons{
+#icons {
   margin-top: 24px;
   margin-bottom: 16px;
 }
 
-#footer-flex-container ul{
+#footer-flex-container ul {
   list-style-type: none;
   margin-top: 16px;
 }
-#footer-flex-container #footer-column2{
+#footer-flex-container #footer-column2 {
   margin-left: 150px;
 }
 
-#footer-flex-container ul li{
+#footer-flex-container ul li {
   margin-bottom: 8px;
   font-family: Nunito;
   font-size: 16px;
@@ -272,11 +274,9 @@ footer h6{
   line-height: normal;
 }
 
-
-#footer-flex-container ul li a{
+#footer-flex-container ul li a {
   color: #333;
 }
-
 
 #footer-flex-container h5 {
   color: #333;
@@ -287,44 +287,43 @@ footer h6{
   line-height: 28px;
 }
 
-#icons{
+#icons {
   padding-left: 32px;
 }
 
-#icons img{
+#icons img {
   width: 20px;
-  height:20px;
+  height: 20px;
   margin-right: 25px;
 }
 
-#Shoes-section img{
-  height:300px;
+#Shoes-section img {
+  height: 300px;
   margin-right: 32px;
-  border: 4px solid #E6DBFE;
+  border: 4px solid #e6dbfe;
 }
 
-#Shoes-section{
+#Shoes-section {
   margin-left: 32px;
 }
 
-#shoe-list-section ul li .Shoes-Element{
-    position: relative;
-    width: 82px;
-    height: 82px;
-    position:relative;
-    bottom: 0px;
-    margin-left: 32px;
+#shoe-list-section ul li .Shoes-Element {
+  position: relative;
+  width: 82px;
+  height: 82px;
+  position: relative;
+  bottom: 0px;
+  margin-left: 32px;
 }
 
-#shoe-list-section ul li .Shoes-Element img{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
+#shoe-list-section ul li .Shoes-Element img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
 }
 
-
-#shoe-list-section h2{
+#shoe-list-section h2 {
   color: #612999;
   font-family: Rubik;
   font-size: 40px;
@@ -336,24 +335,23 @@ footer h6{
   margin-bottom: 32px;
 }
 
-
-#shoe-list-section ul li h3{
+#shoe-list-section ul li h3 {
   color: #000;
   font-family: Rubik;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px; /* 58.333% */
-  margin:16px;
+  margin: 16px;
 }
 
-#shoe-list-section ul .shoe-item{
+#shoe-list-section ul .shoe-item {
   display: flex;
   align-items: center;
-  margin-bottom:16px;
+  margin-bottom: 16px;
 }
 
-#video-section{
+#video-section {
   margin-left: 32px;
   margin-bottom: 32px;
 }
