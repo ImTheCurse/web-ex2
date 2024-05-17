@@ -297,4 +297,14 @@ footer h6{
   margin-right: 25px;
 }
 
+#Shoes-section img{
+  height:300px;
+  margin-right: 32px;
+  border: 4px solid #E6DBFE;
+}
+
+#Shoes-section{
+  margin-left: 32px;
+}
+
 
